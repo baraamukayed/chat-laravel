@@ -24,7 +24,7 @@ class ChatEvent
 
     public function broadcastOn()
     {
-        return new PresenceChannel('chat');
+        return new PrivateChannel('chat');
     }
 
 
